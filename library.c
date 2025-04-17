@@ -30,6 +30,8 @@
 #endif
 #include <errno.h>
 
+int streaming;
+
 /*
  * This function allocates a barcode structure and strdup()s the
  * text string. It returns NULL in case of error
